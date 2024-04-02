@@ -6,6 +6,14 @@ import QuestionsDisplay from './QuestionsDisplay/QuestionsDisplay'
 import TriviaTracker from './TriviaTracker/TriviaTracker'
 import Context from './Context'
 
+// You can choose any option on the start of Trivia
+// If answer is correct you get a point on the right side of the screen (correct answer)
+// If not you get a point for incorrect answers
+// You can play again, you will be redirected back to the start where you can choose new options for another game
+// For me that was the logical way to play the game (without remembering options before, maybe you want to change things in another game)
+// I had no time for implementing some kind of animation when incorrect or correct answer is hit, but I am very pleased with current state of the Trivia
+
+
 function App() {
 	const [questions, setQuestions] = useState([])
 	const [currentQuestion, setCurrentQuestion] = useState(0)

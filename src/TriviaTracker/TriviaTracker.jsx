@@ -1,7 +1,7 @@
-import { useContext } from "react"
+import { useContext, useEffect, useState } from "react"
 import style from "./TriviaTracker.module.css"
 import Context from "../Context"
-
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 
 function TriviaTracker({currentQuestion, maxQuestions}){
     const {correctPoints, incorrectPoints} = useContext(Context)

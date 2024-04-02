@@ -13,3 +13,8 @@
     border-left: 1px black solid;
 
 }
+
+.corrPoints {
+    transform: scale(1.5);
+    transition: all 300ms;
+}
