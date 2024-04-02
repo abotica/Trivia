@@ -1,0 +1,24 @@
+.nextQuestionButton {
+    width: 100px;
+    height: 50px;
+    
+}
+
+.exitDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.triviaOver {
+    font-size: xx-large;
+}
+
+.playAgainText {
+    font-size: larger;
+    margin-bottom: 15px;
+}
+
+.exitDiv button {
+    width: 50%;
+}

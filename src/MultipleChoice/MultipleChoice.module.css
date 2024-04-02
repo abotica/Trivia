@@ -1,0 +1,11 @@
+.mainDiv {
+    display: flex;
+    flex-direction: column;
+}
+
+.mainDiv button{
+    margin: 10px 20vw;
+    -webkit-margin-collapse: collapse;
+    width: 25vw;
+    
+}
